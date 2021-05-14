@@ -8,7 +8,7 @@ class v1
 }
 class v2 extends v1
 {
-	public int sub(int s1,int s2)
+	public int sub(int s1,int s2) 
 	{
 		return s1-s2;
 	}
