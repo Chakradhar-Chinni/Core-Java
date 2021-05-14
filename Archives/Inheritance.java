@@ -6,7 +6,7 @@ class v1
 		return a1+a2;   
 	}    
 }
-class v2 extends v1
+class v2 extends v1 
 {
 	public int sub(int s1,int s2) 
 	{
