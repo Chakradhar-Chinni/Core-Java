@@ -2,7 +2,7 @@ package com.youtube.learning;
 class royal 
 {
 	public void s1(int ... n) //to accept multiple values from main method with out specifying input args we can specify 3 dots ... 
-	{  
+	{   
 		int sum = 0; 
 		for(int i : n) //for-each or enhanced for loop (here both normal & enhanced for loop can be used)
 		{
