@@ -9,7 +9,7 @@ class royal
 			sum = sum+i;     
 		}
 		System.out.println(sum); 
-	}
+	} 
 }
 public class Varargs 
 {
