@@ -20,4 +20,4 @@ public class Varargs
 	}
 
 }
-//24. Varargs - 02:39:02
+//24. Varargs - 02:39:02 
