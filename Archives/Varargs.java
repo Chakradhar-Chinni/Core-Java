@@ -6,7 +6,7 @@ class royal
 		int sum = 0;
 		for(int i : n) //for-each or enhanced for loop (here both normal & enhanced for loop can be used)
 		{
-			sum = sum+i;
+			sum = sum+i; 
 		}
 		System.out.println(sum);
 	}
