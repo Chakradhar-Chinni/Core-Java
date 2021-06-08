@@ -1,7 +1,7 @@
 package com.youtube.learning; 
 class A //super class
 {
-	public A()  
+	public A()   
 	{  
 		System.out.println("Default Constructor");  
 	} 
