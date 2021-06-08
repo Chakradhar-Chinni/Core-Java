@@ -6,7 +6,7 @@ class A //super class
 		System.out.println("Default Constructor");
 	} 
 	public A(int a)
-	{
+	{ 
 		System.out.println("super class Parameterized constructor");
 	}
 }
