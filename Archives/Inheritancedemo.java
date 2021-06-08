@@ -1,4 +1,4 @@
-package com.youtube.learning;
+package com.youtube.learning; 
 class A //super class
 {
 	public A()
