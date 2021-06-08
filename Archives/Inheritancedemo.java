@@ -3,7 +3,7 @@ class A //super class
 {
 	public A()
 	{ 
-		System.out.println("Default Constructor");
+		System.out.println("Default Constructor"); 
 	} 
 	public A(int a)
 	{ 
