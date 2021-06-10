@@ -6,7 +6,7 @@ class Outer  //outer class
 	{
 	System.out.println("From Outer class 1.1");
 	}
-	 class Inner //class inside a class
+	 class Inner //class inside a class 
 	{
 		public void show1()
 		{
