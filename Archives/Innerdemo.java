@@ -3,7 +3,7 @@ package com.youtube.learning;
 class Outer  //outer class
 {
 	public void show() //Method inside outer class
-	{  
+	{   
 	System.out.println("From Outer class 1.1");
 	} 
 	 class Inner //class inside a class 
