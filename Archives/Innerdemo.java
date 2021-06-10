@@ -29,7 +29,7 @@ class Outer  //outer class
 	}
 }
 public class Innerdemo 
-{
+{ 
 	public static void main(String[] args)
 	{
 		Outer obj = new Outer();
