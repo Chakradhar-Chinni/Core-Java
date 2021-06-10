@@ -1,6 +1,6 @@
 package com.youtube.learning;
 
-class Outer  //outer class
+class Outer  //outer class 
 {
 	public void show() //Method inside outer class    
 	{         
