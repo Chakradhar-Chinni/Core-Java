@@ -532,7 +532,8 @@ public class A
 {
 	public static void main(String[] args)
 	{
-		//one obj = new two();   //Reference of class one & object of class two
+		//one obj = new two();   //Reference of class one & object of class two [if a same method is present in ref & obj class then
+											methods of object class gets called]
 		two obj = new two();	//reference & object of class two
 		obj.m1();
 		obj.m2();
