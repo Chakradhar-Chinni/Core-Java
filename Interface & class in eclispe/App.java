@@ -10,7 +10,7 @@ public class App
     {
        // System.out.println( "Hello World!" );
         
-        	Vehicle obj = new Car();
+        	Vehicle obj = new Car();  // Vehicle is an interface which implements the method of Bike & Car class
         	obj.run();
     }
 }
