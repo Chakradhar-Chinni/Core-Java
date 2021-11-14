@@ -63,4 +63,30 @@ class codechef
 }
 Output: [Z, A, B, C]
 //=======================
+//joining two arraylists
+//to join two arraylists they must be of same type i.e. generic must be same
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> al1 = new ArrayList<Integer>();
+        ArrayList<Integer> al2 = new ArrayList<Integer>();
+        al1.add(10);
+        al1.add(20);
+        System.out.println(al1);
+        
+        al2.add(100);
+        al2.add(200);
+        System.out.println(al2);
+        
+        al1.addAll(al2);
+        System.out.print(al1);
+    }
+}
+Output:
+[10, 20]
+[100, 200]
+[10, 20, 100, 200]
+//======================
 
