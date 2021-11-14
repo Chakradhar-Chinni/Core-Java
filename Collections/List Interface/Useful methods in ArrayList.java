@@ -6,7 +6,7 @@ class codechef
     {
         ArrayList<Integer> al = new ArrayList<Integer>();
         al.add(10);
-        al.add(20);
+        al.add(20);// adds element at end of list
         al.add(30);
         System.out.print(al); 
     }
@@ -22,7 +22,7 @@ class codechef
     {
         ArrayList<String> al = new ArrayList<String>();
         al.add("A");
-        al.add("B");
+        al.add("B");// adds element at end of list
         al.add("C");
         System.out.print(al);
     }
@@ -39,7 +39,7 @@ class codechef
         ArrayList<Integer> al = new ArrayList<Integer>();
         al.add(10);
         al.add(20);
-        al.add(30);
+        al.add(30);// adds element at end of list
         al.add(1,100);
         System.out.print(al);
     }
@@ -56,10 +56,11 @@ class codechef
         ArrayList<String> al = new ArrayList<String>();
         al.add("A");
         al.add("B");
-        al.add("C");
+        al.add("C"); // adds element at end of list
         al.add(0,"Z");
         System.out.print(al);
     }
 }
 Output: [Z, A, B, C]
 //=======================
+
