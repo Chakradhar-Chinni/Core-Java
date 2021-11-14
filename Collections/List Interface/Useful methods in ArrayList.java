@@ -90,3 +90,22 @@ Output:
 [10, 20, 100, 200]
 //======================
 
+//joining two arraylists based on index
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList al1 = new ArrayList<Integer>();
+        ArrayList al2 = new ArrayList<Integer>();
+        al1.add(10);
+        al1.add(20);
+        
+        al2.add(100);
+        al2.add(200);
+        
+        al1.addAll(1,al2);
+        System.out.print(al1); // 10 100 200 20
+    }
+}
