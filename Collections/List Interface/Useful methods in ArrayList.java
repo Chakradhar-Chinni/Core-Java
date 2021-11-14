@@ -13,3 +13,21 @@ class codechef
 }
 Output: [10, 20, 30]
 //=======================
+
+
+//adding elements using add method into String Generic
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        ArrayList<String> al = new ArrayList<String>();
+        al.add("A");
+        al.add("B");
+        al.add("C");
+        System.out.print(al);
+    }
+}
+Output: [A, B, C]
+
+//=======================
