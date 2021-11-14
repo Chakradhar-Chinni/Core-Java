@@ -135,3 +135,23 @@ class codechef
 Output:
 [10, 20, 50, 30,40]
 []
+
+//======================
+    
+//fetching element using index
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList al1 = new ArrayList<Integer>();
+        al1.add(10);
+        al1.add(20);
+        al1.add(50);
+        System.out.println(al1.get(0));
+    }
+}
+Output: 10
+//======================
+    
