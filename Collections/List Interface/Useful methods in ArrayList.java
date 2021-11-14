@@ -106,6 +106,10 @@ class codechef
         al2.add(200);
         
         al1.addAll(1,al2);
-        System.out.print(al1); // 10 100 200 20
+        System.out.print(al1); 
     }
 }
+Output: 10 100 200 20
+  
+//======================
+    
