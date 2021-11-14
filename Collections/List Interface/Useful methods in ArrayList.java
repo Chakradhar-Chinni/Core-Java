@@ -194,3 +194,22 @@ class codechef
 Output: 
 3  // element 20 last occured at index 3
 -1  // 93 is not present in list so -1
+/////////
+//Converting arraylist to array in java using toArray()
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> al1 = new ArrayList<Integer>();
+        al1.add(10);
+        al1.add(20);
+        al1.add(50);
+        al1.add(20);
+        al1.add(98);
+        al1.add(87);
+        Integer arr[] = new Integer[al1.size()];
+        arr = al1.toArray(arr);
+    }
+}
