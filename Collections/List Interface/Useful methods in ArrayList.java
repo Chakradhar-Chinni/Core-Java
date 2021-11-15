@@ -265,3 +265,32 @@ class codechef
             System.out.print("list donot contain 10");
     }
 }
+
+//================
+
+//remove method/s on array list
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(50);
+        list.add(20);
+        list.add(98);
+        list.add(87);
+        System.out.println("Actual List: "+ list);
+        
+        list.remove(new Integer(20)); //removes first occurence of 20  | to remove using value
+        System.out.println(list);
+        
+        list.remove(0); // removes 10 | to remove using Index
+        System.out.println(list);
+        
+        list.removeAll(list);
+        System.out.println(list);
+    }
+}
