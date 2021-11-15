@@ -294,3 +294,42 @@ class codechef
         System.out.println(list);
     }
 }
+//===================
+
+//removing elements from arraylist based on condition using in-built method
+
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        ArrayList<String> list2  = new ArrayList<String>();
+        list1.add(10);
+        list1.add(20);
+        list1.add(50);
+        list1.add(20);
+        list1.add(98);
+        list1.add(87);
+        
+        list2.add("Snow");
+        list2.add("Snow king");
+        list2.add("Stark");
+        list2.add("Lannister");
+        
+        System.out.println(list1);
+        list1.removeIf(n -> (n%2==0)); // removes every n divisible by 2
+        System.out.println(list1);
+        
+        System.out.println(list2);
+        list2.removeIf(n -> (n.charAt(0)=='S')); //removes every n starting with S
+        System.out.println(list2);
+    }
+}
+Output:
+[10, 20, 50, 20, 98, 87]
+[87]
+[Snow, Snow king, Stark, Lannister]
+[Lannister]
+//=======
