@@ -378,3 +378,36 @@ class codechef
         //list2.replaceAll(n -> n.toUpperCase());
     }
 }
+Output: [20, 30, 60, 30 108, 97]
+//retailAll()
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        ArrayList<Integer> list2 = new ArrayList<Integer>();
+
+        list1.add(10);
+        list1.add(20);
+        list1.add(50);
+        list1.add(20);
+        
+        list2.add(98);
+        list2.add(87);
+        list2.add(50);
+        
+        System.out.println("list 1: "+list1);
+        System.out.println("list 2: "+list2);
+        
+        list1.retainAll(list2);
+        System.out.println("list 1: "+list1);
+        System.out.println("list 2: "+list2);
+    }
+}
+Output:
+list 1: [10, 20, 50, 20]
+list 2: [98, 87, 50]
+list 1: [50]
+list 2: [98, 87, 50]
