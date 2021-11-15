@@ -82,3 +82,28 @@ Output:
 [10, 20, 30, 40]
 [100, 200, 300, 400]
 [10, 100, 200, 300, 400, 20, 30, 40]
+
+// adding element at first, last index
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list1 = new LinkedList<Integer>();
+        
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40);
+                        
+        System.out.println(list1);
+        
+        list1.addFirst(100);
+        list1.addLast(93);
+        
+        System.out.println(list1);
+    }
+}
+Output:
+[10, 20, 30, 40]
+[100, 10, 20, 30, 40, 93]
