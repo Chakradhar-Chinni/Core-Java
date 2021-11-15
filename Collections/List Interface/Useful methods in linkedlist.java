@@ -47,6 +47,10 @@ class codechef
         System.out.println(list1);
     }
 }
+Output:
+[10, 20, 30, 40]
+[100, 200, 300, 400]
+[10, 20, 30, 40, 100, 200, 300, 400]
 
 //merging lists based on index
 import java.util.*;
