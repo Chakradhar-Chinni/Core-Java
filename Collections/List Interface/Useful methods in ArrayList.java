@@ -411,3 +411,26 @@ list 1: [10, 20, 50, 20]
 list 2: [98, 87, 50]
 list 1: [50]
 list 2: [98, 87, 50]
+//================
+
+//replace element using index
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        
+        list1.add(10);
+        list1.add(20);
+        list1.add(50);
+        list1.add(20);
+        
+        System.out.println("Actual list: "+list1);
+        
+        list1.set(0,94);
+        System.out.println("Modified list: "+list1);
+        
+    }
+}
