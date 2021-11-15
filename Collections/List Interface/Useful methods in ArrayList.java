@@ -241,3 +241,27 @@ class codechef
 Output:
 [10, 20, 30, 40]
 10 20 30 40 
+
+/////////////////////
+
+//Contains() returns boolean value | returns true if value is present else false
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(50);
+        list.add(20);
+        list.add(98);
+        list.add(87);
+        boolean res = list.contains(10);
+        if(res)
+            System.out.print("list contains 10");
+        else
+            System.out.print("list donot contain 10");
+    }
+}
