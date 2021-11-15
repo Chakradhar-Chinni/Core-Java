@@ -354,3 +354,27 @@ class codechef
         System.out.println(list1);
     }
 }
+//=========
+
+//replaceAll() 
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+
+        list1.add(10);
+        list1.add(20);
+        list1.add(50);
+        list1.add(20);
+        list1.add(98);
+        list1.add(87);
+        
+        System.out.println(list1);
+        list1.replaceAll(n -> n+10);
+        System.out.println(list1);
+        //list2.replaceAll(n -> n.toUpperCase());
+    }
+}
