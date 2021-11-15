@@ -107,3 +107,26 @@ class codechef
 Output:
 [10, 20, 30, 40]
 [100, 10, 20, 30, 40, 93]
+
+//removing all elements of linkedlist
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list1 = new LinkedList<Integer>();
+        
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40);
+                        
+        System.out.println(list1);
+        
+        list1.clear();
+        System.out.println(list1);
+    }
+}
+Output:
+[10, 20, 30, 40]
+[]
