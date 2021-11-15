@@ -213,3 +213,31 @@ class codechef
         arr = al1.toArray(arr);
     }
 }
+///////////////////////
+
+//Converting an arraylist to array and returning it
+import java.util.*;
+import com.google.common.primitives.Ints;
+class codechef
+{
+    public static int[] func(ArrayList<Integer> list)
+    {
+        System.out.println(list);
+        int[] arr = Ints.toArray(list);
+        return arr;
+    }
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        int[] arr = func(list);
+        for(int i=0;i<arr.length;i++)
+            System.out.print(arr[i]+" ");
+    }
+}
+Output:
+[10, 20, 30, 40]
+10 20 30 40 
