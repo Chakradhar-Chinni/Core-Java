@@ -151,3 +151,26 @@ class codechef
 }
 Output:
 40 30 20 10 
+
+ //fetching first, last elements in linkedlist
+ import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list1 = new LinkedList<Integer>();
+        
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40);
+                        
+        System.out.println(list1.element());  //returns first element of linkedlist
+        System.out.println(list1.getFirst()); //returns first element of linkedlist
+        System.out.println(list1.getLast());  //returns last element of linkedlist
+    }
+}
+Output:
+10
+10
+40
