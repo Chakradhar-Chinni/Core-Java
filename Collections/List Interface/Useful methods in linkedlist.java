@@ -174,3 +174,27 @@ Output:
 10
 10
 40
+
+// fetching elements based on index, fetching index of first, last occurence
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list1 = new LinkedList<Integer>();
+        
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40);
+        list1.add(30);
+                        
+       System.out.println(list1.get(0));  // returns element at specified index
+       System.out.println(list1.indexOf(30));
+       System.out.println(list1.lastIndexOf(30));
+    }
+}  
+Output:
+10
+2
+4
