@@ -333,3 +333,24 @@ Output:
 [Snow, Snow king, Stark, Lannister]
 [Lannister]
 //=======
+//removing elements in specified range | ArrayOutOfIndexBoundsException may occur if range is mentioned is larger than arraylist
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+
+        list1.add(10);
+        list1.add(20);
+        list1.add(50);
+        list1.add(20);
+        list1.add(98);
+        list1.add(87);
+        
+        System.out.println(list1);
+        list1.subList(0,2).clear(); 
+        System.out.println(list1);
+    }
+}
