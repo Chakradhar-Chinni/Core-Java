@@ -130,3 +130,24 @@ class codechef
 Output:
 [10, 20, 30, 40]
 []
+
+//traversing linkedlist from backwards
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list1 = new LinkedList<Integer>();
+        
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40);
+                        
+        Iterator x = list1.descendingIterator();
+        while(x.hasNext())
+            System.out.print(x.next()+" ");
+    }
+}
+Output:
+40 30 20 10 
