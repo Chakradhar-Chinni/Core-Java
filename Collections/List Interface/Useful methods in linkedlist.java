@@ -276,3 +276,43 @@ Output:
 20
 98
 [30]
+
+// remove methods in linkedlist
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(98);
+        
+        list.remove(); // retrieves and removes I element of list
+        list.remove(0); // retrieves and removes based on index
+       // list.remove(98); //removes based on object
+        System.out.println(list);
+        
+        list.add(10);
+        list.add(58);
+        list.add(26);
+        list.add(20);
+        list.add(27);
+        list.add(30);
+        list.add(26);
+        list.add(98);
+        list.add(27);
+        
+        list.removeFirst();  // removes and returns I element of list
+        list.removeLast();  //  removes and returns last element of list
+        list.removeFirstOccurrence(26); // returns boolean value
+        list.removeLastOccurrence(27); // returns boolean value
+        
+        System.out.println(list);
+        
+    }
+}
+Output:
+[30, 98]
+[98, 10, 58, 20, 30, 26, 98]
