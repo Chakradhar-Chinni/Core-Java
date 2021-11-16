@@ -241,3 +241,38 @@ class codechef
 }
 Output:
 [64, 10, 20, 30, 98, 65, 66]
+
+//poll & peek methods
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(98);
+        
+        System.out.println(list.peek());        //it retrieves first element of list
+        System.out.println(list.peekFirst());   //it retrieves first element of list, returns null if list is empty
+        System.out.println(list.peekLast());    //it retrieves last element of list, returns null if list is empty
+        
+        System.out.println(list);
+        
+        System.out.println(list.poll());  //retrieves and removes first element of list
+        System.out.println(list.pollFirst()); //retrieves and removes first element of list
+        System.out.println(list.pollLast());  //retrieves and removes last element of list
+        
+        System.out.println(list);
+    }
+}
+Output:
+10
+10
+98
+[10, 20, 30, 98]
+10
+20
+98
+[30]
