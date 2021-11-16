@@ -198,3 +198,24 @@ Output:
 10
 2
 4
+
+//replacing element using index
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(98);
+        
+        System.out.println(list);
+        list.set(2,80);
+        System.out.println(list);
+    }
+}
+Output:
+[10, 20, 30, 98]
+[10, 20, 80, 98]
