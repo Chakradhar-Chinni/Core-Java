@@ -220,3 +220,24 @@ Output:
 [10, 20, 30, 98]
 [10, 20, 80, 98]
 
+//adding elements at first, last of linkedlist
+import java.util.*;
+class codechef
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(98);
+        
+        list.offer(65);  //adds element at end of linkedlist
+        list.offerLast(66); //adds element at end of linkedlist
+        list.offerFirst(64); //adds element at front of linkedlist
+        
+        System.out.println(list);
+    }
+}
+Output:
+[64, 10, 20, 30, 98, 65, 66]
