@@ -232,9 +232,9 @@ class codechef
         list.add(30);
         list.add(98);
         
-        list.offer(65);  //adds element at end of linkedlist
-        list.offerLast(66); //adds element at end of linkedlist
-        list.offerFirst(64); //adds element at front of linkedlist
+        list.offer(65);  //adds element at end of linkedlist, returns boolean value
+        list.offerLast(66); //adds element at end of linkedlist, returns boolean value
+        list.offerFirst(64); //adds element at front of linkedlist, returns boolean value
         
         System.out.println(list);
     }
