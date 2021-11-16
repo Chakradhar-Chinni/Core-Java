@@ -190,8 +190,8 @@ class codechef
         list1.add(30);
                         
        System.out.println(list1.get(0));  // returns element at specified index
-       System.out.println(list1.indexOf(30));
-       System.out.println(list1.lastIndexOf(30));
+       System.out.println(list1.indexOf(30)); // returns -1 if element is not present
+       System.out.println(list1.lastIndexOf(30));  // returns -1 if element is not present
     }
 }  
 Output:
