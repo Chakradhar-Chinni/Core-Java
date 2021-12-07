@@ -61,3 +61,18 @@ class Main
 Output:
 true
 [54, 439, 10, 43]
+
+//isEmpty() || returns true if set is empty else false
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        HashSet<Integer> set = new HashSet<Integer>();
+        System.out.println(set.isEmpty());
+        
+        set.add(10);
+        set.add(439);
+        System.out.println(set.isEmpty());
+    }
+}
