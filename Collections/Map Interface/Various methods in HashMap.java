@@ -62,3 +62,32 @@ Output:
 HashMap size is: 2
 10
 */
+
+//Check if HashMap contains given key, contains given value
+// containsKey(), containsValue() returns boolean value
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
+        map.put(1001,10);
+        map.put(1002,20);
+        
+        boolean res1 = map.containsKey(1001);
+        boolean res2 = map.containsValue(20);
+        
+        
+        boolean res3 = map.containsKey(001);
+        boolean res4 = map.containsValue(23);
+        
+        System.out.println(res1 +"::"+ res2);
+        System.out.println(res3 +"::"+ res4);
+    }
+}
+/*
+Output:
+
+true::true
+false::false
+*/
