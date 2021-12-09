@@ -143,3 +143,34 @@ Actual Map: {a=10, b=20, c=30, d=40, e=50}
 New HashMap: {a=10, b=40, c=30, d=40, e=60}
 Updated New HashMap: {a=10, b=40, c=30, d=50, e=60}
 */
+
+//replaceAll() | for replacing every key with same value
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<String,Integer> map = new HashMap<String,Integer>();
+        map.put("a",10);
+        map.put("b",20);
+        map.put("c",30);
+        map.put("d",40);
+        map.put("e",50);
+        
+        System.out.println("Actual Map: "+map);
+        
+        map.replaceAll((key,value)->60);
+        System.out.println("New HashMap: "+map);
+        
+        map.replaceAll((key,value)->value+20);
+        System.out.println("Updated New HashMap: "+map);
+
+    }
+}
+/*
+Output:
+Actual Map: {a=10, b=20, c=30, d=40, e=50}
+New HashMap: {a=60, b=60, c=60, d=60, e=60}
+Updated New HashMap: {a=80, b=80, c=80, d=80, e=80}
+
+*/
