@@ -91,3 +91,25 @@ Output:
 true::true
 false::false
 */
+//Removing all entries of HashMap
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
+        map.put(1001,10);
+        map.put(1002,20);
+        
+        System.out.println(map);
+        
+        map.clear();
+        System.out.println(map);
+    }
+}
+/*
+Output
+
+{1001=10, 1002=20}
+{}
+*/
