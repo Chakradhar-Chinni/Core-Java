@@ -87,7 +87,6 @@ class Main
 }
 /*
 Output:
-
 true::true
 false::false
 */
@@ -112,4 +111,35 @@ Output
 
 {1001=10, 1002=20}
 {}
+*/
+
+//replace() to replace a value using Key
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<String,Integer> map = new HashMap<String,Integer>();
+        map.put("a",10);
+        map.put("b",20);
+        map.put("c",30);
+        map.put("d",40);
+        map.put("e",50);
+        
+        System.out.println("Actual Map: "+map);
+        
+        map.replace("e",60);
+        map.replace("b",40);
+        System.out.println("New HashMap: "+map);
+        
+        //replace() to update using existing value
+        map.replace("d",map.get("d")+10);
+        System.out.println("Updated New HashMap: "+map);
+    }
+}
+/*
+Output:
+Actual Map: {a=10, b=20, c=30, d=40, e=50}
+New HashMap: {a=10, b=40, c=30, d=40, e=60}
+Updated New HashMap: {a=10, b=40, c=30, d=50, e=60}
 */
