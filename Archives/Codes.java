@@ -37,6 +37,9 @@ public class Main
 ////////////////////////////
 */
 /*Constructor & Constructor loading
+* Constructors shouldn't have return type
+* Constructors are invoke implicitly
+* Java Compiler provides a default constructor if no constrcutor is present in class
 package com.java.series;
 class Calc
 {
@@ -65,6 +68,8 @@ public class A
 	}
 
 }*/
+* Java don't have copy constructor, still we can copy values of a constructor to another constructor (just like copy constructor in c++)
+	
 /*
 this keyword
 package com.java.series;
