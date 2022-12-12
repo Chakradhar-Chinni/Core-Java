@@ -92,6 +92,25 @@ public class A
 	}
 
 }*/
+	
+package com.src.github.java;
+class A{
+	int num1=3,num2;
+	public void calc(int input1, int input2) {
+		this.num1=input1+10;
+		this.num2=input2;
+		System.out.println(num1+num2);
+		System.out.println(input1+" "+input2);
+	}
+}
+public class Main 
+{
+	public static void main(String[] args)         
+	{
+		A obj1 = new A();
+		obj1.calc(2,15);
+	}
+}
 
 /*//Method overloading
 package com.java.series;
