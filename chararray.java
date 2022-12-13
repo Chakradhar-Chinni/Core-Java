@@ -11,9 +11,7 @@ public class Main
 	    chararr[2] = 'c';
 	    chararr[3] = 'd';
 	    chararr[4] = 'e';
-	    for(int i=0;i<chararr.length;i++)
-	    {
-	        System.out.println(chararr[i]);
-	    }
+	    for(int i=0;i<chararr.length;i++) {
+	        System.out.println(chararr[i]); }
 	 }
 }
